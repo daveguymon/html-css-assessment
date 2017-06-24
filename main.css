@@ -18,15 +18,32 @@
 .topHeader {
     width: 100%;
     height: 120px;
-    /*background: goldenrod;*/
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .socialIcons{
     display: none;
 }
+
+.hamSocialContainer{
+    height: 120px;
+    width: 100%;
+    display: flex;
+}
+
+.navLinks {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 1.6em;
+}
+
+
 
 /*begin content section*/
 
@@ -83,6 +100,14 @@
 /*begin media queries*/
 
 @media(max-width: 700px) {
+
+    .topHeader {
+        justify-content: space-between;
+    }
+
+    .navLinks {
+        display: none;
+    }
     
 .hamSocialContainer{
     width: 100%;
@@ -90,6 +115,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 40px;
 }
 
     .hamCircle {
@@ -102,7 +128,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-left: 32px;
+        /*margin-left: 32px;*/
     }
     .hamBars {
         height: 8px;
@@ -120,7 +146,7 @@
         display: flex;
         justify-content: space-between;
         width: 100px;
-        margin-right: 32px;
+        /*margin-right: 32px;*/
         
     }
     
