@@ -78,19 +78,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 10vh;
-    height: 10vh;
-/*
-    border: 1px solid;
-    border-color: #fcfcff;
-*/
+    width: 80px;
+    height: 80px;
     background: #fcfcff;
     border-radius: 50%;
 }
 
 .arrowIcon {
-    height: 10vh;
-    width: 5vw;
+    height: 28px;
+    width: 28px;
 }
 
 
@@ -123,8 +119,8 @@
         flex-direction: column;
     }
     .hamBars {
-        height: 1vh;
-        width: 6vw;
+        height: 2px;
+        width: 24px;
         color: #FCFCFF;
         display: flex;
         border-bottom: 2px solid #fcfcff;
